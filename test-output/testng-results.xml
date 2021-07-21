@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T19:38:36 IST" name="Suite" finished-at="2021-07-21T19:38:44 IST" duration-ms="7878">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T19:38:36 IST" name="Test" finished-at="2021-07-21T19:38:44 IST" duration-ms="7878">
+      <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus@2a266d09]" started-at="2021-07-21T19:38:35 IST" name="configBS" finished-at="2021-07-21T19:38:36 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="createdStauts()[pri:0, instance:com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus@2a266d09]" started-at="2021-07-21T19:38:36 IST" name="createdStauts" finished-at="2021-07-21T19:38:43 IST" duration-ms="7369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdStauts -->
+        <test-method is-config="true" signature="ConfigAS()[pri:0, instance:com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus@2a266d09]" started-at="2021-07-21T19:38:44 IST" name="ConfigAS" finished-at="2021-07-21T19:38:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAS -->
+      </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus -->
+      <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus">
+        <test-method signature="completedStatus()[pri:0, instance:com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus@5ab9e72c]" started-at="2021-07-21T19:38:43 IST" name="completedStatus" finished-at="2021-07-21T19:38:44 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completedStatus -->
+      </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus -->
+      <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithOnGoingstatus">
+        <test-method signature="goingStatus()[pri:0, instance:com.wipro.rmgyantra.scripts.AddSingleProjectWithOnGoingstatus@186f8716]" started-at="2021-07-21T19:38:44 IST" name="goingStatus" finished-at="2021-07-21T19:38:44 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingStatus -->
+      </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithOnGoingstatus -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
