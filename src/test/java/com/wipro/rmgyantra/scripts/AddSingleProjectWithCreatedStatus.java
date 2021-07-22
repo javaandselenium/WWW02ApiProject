@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import org.testng.annotations.Test;
 
 import com.wipro.rmgyantra.genericlib.BaseClass;
+import com.wipro.rmgyantra.genericlib.IEndPoints;
 import com.wipro.rmgyantra.genericlib.JavaUtility;
 import com.wipro.rmgyantra.pojolib.Project;
 
@@ -22,7 +23,7 @@ public class AddSingleProjectWithCreatedStatus extends BaseClass{
 	Response resp = given()
 	.contentType(ContentType.JSON)
 	.body(pObj)
-	.post("http://localhost:8084/addProject");
+	.post(IEndPoints.addSingleProjectWithCreatedStatus);
 	resp.then().log().all()
 	.assertThat().statusCode(201)
 	.contentType(ContentType.JSON);

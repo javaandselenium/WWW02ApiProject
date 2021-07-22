@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import org.testng.annotations.Test;
 
 import com.wipro.rmgyantra.genericlib.BaseClass;
+import com.wipro.rmgyantra.genericlib.IEndPoints;
 import com.wipro.rmgyantra.genericlib.JavaUtility;
 import com.wipro.rmgyantra.pojolib.Project;
 
@@ -22,7 +23,7 @@ Project pobj=new Project("Kavya", projectName,5,"Completed");
 	Response resp = given()
 	.contentType(ContentType.JSON)
 	.body(pobj)
-	.post("http://localhost:8084/addProject");
+	.post(IEndPoints.addSingleProjectWithCompletedStatus);
 	resp.then().log().all()
 	.assertThat().statusCode(201);
 	

@@ -22,7 +22,7 @@ public class AddSingleProjectWithOnGoingstatus extends BaseClass{
 		Response resp = given()
 		.contentType(ContentType.JSON)
 		.body(pObj)
-		.post("http://localhost:8084/addProject");
+		.post(IEndPoints.addSingleProjectWithCompletedStatus);
 		
 		resp.then().log().all()
 		.contentType(ContentType.JSON)
