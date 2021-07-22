@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.wipro.rmgyantra.scripts.Test1"/>
       <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus"/>
       <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus"/>
       <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithOnGoingstatus"/>
