@@ -10,6 +10,20 @@
           <include name="ConfigAS"/>
         </methods>
       </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithOnGoingstatus -->
+      <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus">
+        <methods>
+          <include name="configBS"/>
+          <include name="ConfigAS"/>
+          <include name="createdStauts"/>
+        </methods>
+      </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithCreatedStatus -->
+      <class name="com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus">
+        <methods>
+          <include name="configBS"/>
+          <include name="ConfigAS"/>
+          <include name="completedStatus"/>
+        </methods>
+      </class> <!-- com.wipro.rmgyantra.scripts.AddSingleProjectWithCompletedStatus -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
